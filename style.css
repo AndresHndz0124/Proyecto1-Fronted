@@ -11,6 +11,8 @@ nav {
     padding: 15px 0px 15px 0px;
     justify-content: space-evenly;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 nav img {
@@ -43,7 +45,7 @@ a {
     border-radius: 300px;
     padding: 10px 10px;
     border-color: #29659c;
-    color: black;
+    color: white;
     font-weight: 500;
     border-style: solid;
 
@@ -54,20 +56,14 @@ a {
     color: #fff !important;
 }
 
-.main_2 {
-    width: 900px;
-    height: auto;
-    border-radius: 16px;
-    height: min-content;
-    align-items: center;
-}
-
-.fondo {
-    position: absolute;
+.Jumbotron {
+    background-color: #FBFFF9;
+    background-image: url("https://cdn.pixabay.com/index/2022/10/18/11-44-28-337_1440x550.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .Promo {
-    position: absolute;
     align-items: center;
     padding: 50px 0px 0px 0px;
     justify-content: center;
@@ -116,7 +112,12 @@ a {
 #email {
     border-radius: 10px;
     text-align: left;
-width: 200px;
-font-size: 10px;
-padding: 12px;
+    width: 200px;
+    font-size: 10px;
+    padding: 12px;
+}
+
+.Blog {
+    padding: 180px 0px;
+    background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }
