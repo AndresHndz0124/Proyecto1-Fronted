@@ -14,7 +14,7 @@ nav {
 }
 
 nav img {
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 60px;
     width: 60px;
     height: 60px;
 }
@@ -49,18 +49,74 @@ a {
 
 }
 
-
 .Boton:hover {
     background: #318aac;
     color: #fff !important;
 }
 
-
-
-.main_2 img {
-    width: 100%;
+.main_2 {
+    width: 900px;
+    height: auto;
+    border-radius: 16px;
+    height: min-content;
+    align-items: center;
 }
 
-.main_2 {
+.fondo {
+    position: absolute;
+}
+
+.Promo {
+    position: absolute;
     align-items: center;
+    padding: 50px 0px 0px 0px;
+    justify-content: center;
+}
+
+.Promo img {
+    margin: 30px 20px 0px 10px;
+    width: 400px;
+    height: 400px;
+    border-radius: 16px;
+    float: right;
+}
+
+.Promo>h1 {
+    color: white;
+    font-size: 55px;
+    padding: 18px 5px 24px 20px;
+}
+
+.text {
+    color: #ffffff;
+    padding: 0px 0px 0px 20px;
+    font-size: 30px;
+}
+
+.button2 {
+    border-radius: 16px;
+    border: 3px solid #ffffff;
+    border-radius: 500px;
+    Color: white;
+    font-weight: bold;
+    padding: 7px 32px;
+}
+
+.botones {
+    margin: 50px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.botones div {
+    margin-right: 20px;
+}
+
+#email {
+    border-radius: 10px;
+    text-align: left;
+width: 200px;
+font-size: 10px;
+padding: 12px;
 }
