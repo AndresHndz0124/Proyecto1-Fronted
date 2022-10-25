@@ -269,7 +269,6 @@ p {
 
 #fott {
     background-color: black;
-    margin-top: 10px;
     height: 100px;
     padding: 40px 60px;
     width: auto;
@@ -285,17 +284,9 @@ p {
     grid-template-columns: repeat(1, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
 }
-
 .COMP {
     list-style: none;
 }
 
-#fott img {
-    width: 90px;
-    height: 40px;
-}
-
-.redes_so img {
-    width: 10px;
-    height: 10px;
-}
+#fott img {width: 100px;height: 40px;}
+.redes_so img{width: 10px;height: 10px;}
