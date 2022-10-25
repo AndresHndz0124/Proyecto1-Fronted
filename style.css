@@ -269,6 +269,7 @@ p {
 
 #fott {
     background-color: black;
+    margin-top: 10px;
     height: 100px;
     padding: 40px 60px;
     width: auto;
@@ -288,5 +289,5 @@ p {
     list-style: none;
 }
 
-#fott img {width: 100px;height: 40px;}
+#fott img {width: 90px;height: 40px;}
 .redes_so img{width: 10px;height: 10px;}
