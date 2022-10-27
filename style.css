@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@ nav {
     padding: 15px 0px 15px 0px;
     justify-content: space-evenly;
     align-items: center;
-    
     color: white;
     background-color: black;
 }
@@ -42,6 +42,19 @@ a {
     --tw-text-opacity: 1;
 }
 
+#Inses {
+    padding: 10px 10px;
+    border-color: #29659c;
+    color: white;
+    font-weight: 500;
+
+}
+
+#Inses:hover {
+    color: rgba(209, 213, 219, var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+}
+
 .Boton {
     border-radius: 300px;
     padding: 10px 10px;
@@ -61,7 +74,8 @@ a {
     background-color: #FBFFF9;
     /*
     background-image: url("https://cdn.pixabay.com/index/2022/10/18/11-44-28-337_1440x550.jpg");
-    */background-image: url("Imagenes/panorama-2117310.jpg");
+    */
+    background-image: url("Imagenes/panorama-2117310.jpg");
     background-attachment: fixed;
     background-size: cover;
     height: auto;
@@ -298,9 +312,17 @@ p {
     grid-template-columns: repeat(1, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
 }
+
 .COMP {
     list-style: none;
 }
 
-#fott img {width: 90px;height: 40px;}
-.redes_so img{width: 10px;height: 10px;}
+#fott img {
+    width: 90px;
+    height: 40px;
+}
+
+.redes_so img {
+    width: 10px;
+    height: 10px;
+}
