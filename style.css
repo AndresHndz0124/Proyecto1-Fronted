@@ -1,3 +1,90 @@
+@media screen and (min-width : 1024px) {
+    .Promo>img {
+        display: none;
+    }
+    .Blog h5 {
+        font-size: 16px;}
+    /*font-size: 30px;*/
+
+    .letras a {
+        font-size: 16px;
+    }
+
+    .Promo>p {
+        font-size: 30px;
+    }
+
+    .Promo>h1 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width :1023px) {    .Promo>img {
+    display: none;
+}
+}
+
+@media screen and (max-width : 767px) {
+
+    header>nav a>img {
+        display: none;
+    }
+
+    .blog_1{display: flex;
+    }
+
+    .letras {
+        margin-left: 10px;
+    }
+    .comp1 >p {
+        font-size: 8px;
+    }
+    .fo_le>p {
+        font-size: 8px;
+    }
+    .Blog>h1>b {
+        font-size: 16px;
+    }
+
+
+    p,a {
+        font-size: 12px;
+    }
+
+    /*
+
+*/
+
+    .Promo>img {
+        display: none;
+    }
+
+    .Adicionales {
+        background-image: url("Imagenes/pexels-mathias-reding-13046458.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        height: auto;
+        color: white
+    }
+
+    .Adicionales>img {
+        display: none;
+    }
+
+    .button3>a {
+        width: min-content;
+        color: white;
+    }
+
+    #fott {
+        grid-gap: 5px;
+    }
+
+    .botones {
+        font-size: 8px;
+        flex-direction: column;
+    }
+}
 
 * {
     margin: 0;
@@ -34,7 +121,6 @@ a {
 
 .letras a {
     margin: 0px 20px 0px 0px;
-    font-size: 16px;
 }
 
 .letras a:hover {
@@ -98,14 +184,13 @@ a {
 
 .Promo>h1 {
     color: white;
-    font-size: 55px;
     padding: 18px 5px 24px 20px;
 }
 
 .text {
     color: #ffffff;
     padding: 0px 0px 0px 20px;
-    font-size: 30px;
+    /*font-size: 30px;*/
 }
 
 .button2 {
@@ -120,8 +205,10 @@ a {
 .botones {
     margin: 50px 0px 0px 20px;
     display: flex;
+
     align-items: center;
     color: white;
+    justify-content: space-around;
 }
 
 .botones div {
@@ -146,7 +233,7 @@ a {
 }
 
 .Blog h5 {
-    font-size: 16px;
+
     font-weight: normal;
     margin: 10px 0px;
     text-align: center;
@@ -246,7 +333,9 @@ li b {
 /* ADICIONALES */
 .Adicionales {
     background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    /*display: flex;*/
     align-items: center;
     justify-content: space-between;
     height: 300px;
@@ -254,7 +343,7 @@ li b {
 
 
 .Adicionales img {
-    width: 400px;
+    width: 100%;
     height: 100%;
 }
 
@@ -278,7 +367,6 @@ li b {
 
 .button3 {
     width: min-content;
-
     border-radius: 300px;
     padding: 10px 10px;
     border-color: #29659c;
