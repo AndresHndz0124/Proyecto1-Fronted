@@ -35,8 +35,3 @@ A Continuación se presenta la URL de la pagina WEB así como el propotipo desar
 
 ****
 
-## 4. Objetivos de aprendizaje
-
-El objetivo principal de este proyecto es desarrollar una interfaz utilizando HTML y CSS, en toda su aplicación.
-
-Aplicarás:
