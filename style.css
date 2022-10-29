@@ -251,11 +251,10 @@ a {
 
     align-items: center;
     color: white;
-    justify-content: space-around;
 }
 
 .botones div {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #email {
@@ -389,7 +388,8 @@ li b {
 
 
 .Adicionales img {
-    width: 100%;
+    max-width: 100%;
+    width: 500px; 
     height: 100%;
 }
 
