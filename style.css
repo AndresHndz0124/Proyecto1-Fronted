@@ -3,6 +3,8 @@
         display: none;
     }
 
+
+
     .Blog>h5 {
         font-size: 16px;
         text-align: justify;
@@ -12,6 +14,7 @@
 
     .letras a {
         font-size: 16px;
+            margin: 0px 100px 0px 0px;
     }
 
     .Promo>p {
@@ -29,7 +32,7 @@
         font-size: 20px;
         justify-content: space-around;
         text-align: center;
-        grid-column-gap: 20px;
+        grid-column-gap: 30px;
         padding: 20px 40px;
     }
 }
@@ -39,6 +42,9 @@
         display: none;
     }
 
+    .letras a {
+        margin: 0px 20px 0px 0px;
+    } 
     .blog_1 {
         display: grid;
         grid-template-columns: repeat(3, minmax(min-content, max-content));
@@ -66,15 +72,14 @@
         font-size: 8px;
     }
 
-    .fo_le>p {
-        font-size: 8px;
-    }
-
     .Blog>h1>b {
         font-size: 16px;
 
     }
 
+    .letras a {
+        margin: 0px 20px 0px 0px;
+    }
 
     p,
     a {
@@ -113,7 +118,7 @@
     }
 
     #fott {
-        grid-gap: 5px;
+        grid-gap: 10px;
     }
 
     .botones {
@@ -147,9 +152,9 @@ nav {
 }
 
 nav img {
-    margin: 0px 0px 0px 60px;
     width: 60px;
     height: 60px;
+    float: left;
 }
 
 .letras {
@@ -162,9 +167,6 @@ a {
     color: inherit;
 }
 
-.letras a {
-    margin: 0px 20px 0px 0px;
-}
 
 .letras a:hover {
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -278,7 +280,7 @@ a {
 
     font-weight: normal;
     margin: 10px 0px;
-    text-align: justify;
+    text-align: center;
     padding: 20px 40px;
 }
 
@@ -320,11 +322,11 @@ a {
 
 .sub_plan img {
     width: 100%;
-    height: 200px;
+    height: 400px;
 }
 
 .texto {
-    font-size: 12px;
+    /*font-size: 12px;*/
     justify-content: center;
     text-align: left;
     display: grid;
@@ -382,14 +384,14 @@ li b {
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     /*display: flex;*/
     align-items: center;
-    height: 300px;
-    margin-left: 80px;
+    height: 400px;
+    margin-left: 40px;
 }
 
 
 .Adicionales img {
     max-width: 80%;
-    width: 650px; 
+    width: 100%; 
     height: 100%;
 }
 
@@ -434,11 +436,10 @@ p {
 /*Footer */
 #fott {
     background-color: black;
-    height: 100px;
+
     padding: 40px 60px;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     width: auto;
-    font-size: 10px;
     color: white;
     display: grid;
     grid-template-columns: repeat(5, minmax(min-content, max-content));
@@ -456,8 +457,8 @@ p {
 }
 
 #fott img {
-    width: 90px;
-    height: 40px;
+    width: 100px;
+    height: 70px;
 }
 
 .redes_so img {
