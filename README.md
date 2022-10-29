@@ -30,6 +30,7 @@ La pagina web cuenta con las siguientes secciones:
 
 ## 2. Propotipo y URL
 A Continuación se presenta la URL de la pagina WEB así como el propotipo desarrollado en figma donde se plasma la idea inicial de cara a la pagina web.
+https://github.com/AndresHndz0124/Proyecto1-Fronted
 
 ![imagen](Imagenes/Proyecto-Figma-Frontend1.png)
 
