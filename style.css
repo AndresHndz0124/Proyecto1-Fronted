@@ -382,14 +382,14 @@ li b {
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     /*display: flex;*/
     align-items: center;
-    justify-content: space-between;
     height: 300px;
+    margin-left: 80px;
 }
 
 
 .Adicionales img {
-    max-width: 100%;
-    width: 500px; 
+    max-width: 80%;
+    width: 650px; 
     height: 100%;
 }
 
